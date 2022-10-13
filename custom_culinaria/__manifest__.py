@@ -8,11 +8,11 @@
         """,
     'author': "Eladio Garcia",
     'website': "http://eladiogarcia.com",
+    'license': 'LGPL-3',
     'category': "sin categoría",
     'version': '1.1',
     'depends': ['base'],
     'data': [
         'views/as_res_partner_view.xml',
     ],
-    'license': 'LGPL-3',
-    }
+}
