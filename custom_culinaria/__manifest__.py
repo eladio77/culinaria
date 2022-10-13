@@ -1,8 +1,8 @@
 { 
     'name': 'Custom_culinaria',
     'summary': "Personalizaciones generales de Odoo Culinaria",
-    'description':
-        """Personalizaciones Varias del Cliente
+    'description': """
+    Personalizaciones Varias del Cliente
             ===============
         Se agrega campo de nombre fantasia a contactos
         """,
