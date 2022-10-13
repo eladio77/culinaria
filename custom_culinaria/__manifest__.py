@@ -14,6 +14,7 @@
     'data': [
         'views/as_res_partner.view.xml',
     ],
+    'license': 'LGPL-3'
     
     
     }
