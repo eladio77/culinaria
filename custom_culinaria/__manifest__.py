@@ -1,11 +1,11 @@
 { 
     'name': 'Custom_culinaria',
     'summary': "Personalizaciones generales de Odoo Culinaria",
-    'description': """
-    Personalizaciones Varias del Cliente
-            ===============
-        Se agrega campo de nombre fantasia a contactos
-        """,
+#    'description': """
+#    Personalizaciones Varias del Cliente
+#            ===============
+#        Se agrega campo de nombre fantasia a contactos
+#        """,
     'author': "Eladio Garcia",
     'website': "http://eladiogarcia.com",
     'license': 'LGPL-3',
