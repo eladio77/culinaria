@@ -7,3 +7,7 @@ class ResPartnerExtend(models.Model):
     c_nombre_fantasia = fields.Char(
         string='c_nombre_fantasia',
         required=False)
+    
+    email_alt = fields.Char(
+        string='Email_alt', 
+        required=False)
