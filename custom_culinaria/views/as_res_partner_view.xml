@@ -29,8 +29,8 @@
                 </field>
                 <xpath expr="//field[@name='city']" position="after">
                     <xpath expr="//field[@name='user_id']" position="move"/>
-                    <field name="property_payment_term_id" strin="Plazo de pago"/>
-                    <field name="property_product_pricelist" strin="Tarifa"/>
+                    <field name="property_payment_term_id.display_name" strin="Plazo de pago"/>
+                    <field name="property_product_pricelist.display_name" strin="Tarifa"/>
                 </xpath>
             </field>
         </record>
