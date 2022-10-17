@@ -9,7 +9,7 @@
                 <field name="company_name" position="after">
                     <field name="c_nombre_fantasia" string="Nombre Fantasia" placeholder="e.j. Nombre Fantasia" attrs="{'invisible': [('is_company','=', False)]}"/>
                 </field>
-                <field name="mail" position="after">
+                <field name="email" position="after">
                     <field name="email_alt" string="Email Alternativo"/>
                 </field>
                 <field name="title" position="attributes">
@@ -25,7 +25,7 @@
             <field name="inherit_id" ref="base.view_partner_tree"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='city']" position="after">
-                    <xpath expr="//field[@name='mail']" position="move"/>
+                    <xpath expr="//field[@name='email']" position="move"/>
                 </xpath>
             </field>
         </record>
