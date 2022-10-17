@@ -1,0 +1,1 @@
+from . import as_res_partner

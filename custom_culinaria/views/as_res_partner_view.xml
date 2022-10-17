@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <record id="res_partner_form_inherit" model="ir.ui.view">
+            <field name="name">res_partner_form_inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <field name="company_name" position="after">
+                    <field name="c_nombre_fantasia" string="Nombre Fantasia" placeholder="e.j. Nombre Fantasia" attrs="{'invisible': [('is_company','=', False)]}"/>
+                </field>
+                <field name="mail" position="after">
+                    <field name="email_alt" string="Email Alternativo"/>
+                </field>
+                <fielld name="title" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </fielld>
+            </field>
+        </record>
+
+        <!-- Inherit Form View to Modify it -->
+        <record id="res_partner_tree_custom_inherit" model="ir.ui.view">
+            <field name="name">res_partner_tree_custom_inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='city']" position="after">
+                    <xpath expr="//field[@name='mail']" position="move"/>
+                </xpath>
+            </field>
+        </record>
+</odoo>
