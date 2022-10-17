@@ -30,10 +30,10 @@
                 <xpath expr="//field[@name='city']" position="after">
                     <xpath expr="//field[@name='user_id']" position="move"/>
                 </xpath>
-    <!--            <field name="country_id" position="after">
+    <!--        <field name="country_id" position="after">
                     <field name="property_payment_term_id" string="Plazo de pago"/>
-                    <field name="property_product_pricelist" string="Tarifa"/> -->
-                </field>
+                    <field name="property_product_pricelist" string="Tarifa"/>
+                </field> -->
             </field>
         </record>
 </odoo>
