@@ -24,11 +24,9 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_tree"/>
             <field name="arch" type="xml">
-                <tree>
-                    <xpath expr="//field[@name='city']" position="after">
-                        <xpath expr="//field[@name='mail']" position="move"/>
-                    </xpath>
-                </tree>
+                <xpath expr="//field[@name='city']" position="after">
+                    <xpath expr="//field[@name='mail']" position="move"/>
+                </xpath>
             </field>
         </record>
 </odoo>
