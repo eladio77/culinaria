@@ -24,8 +24,13 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_tree"/>
             <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <field name="c_nombre_fantasia" string="Nombre Fantasia"/>
+                </field>
                 <xpath expr="//field[@name='city']" position="after">
-                    <xpath expr="//field[@name='email']" position="move"/>
+                    <xpath expr="//field[@name='user_id']" position="move"/>
+                    <field name="property_payment_term_id" strin="Plazo de pago"/>
+                    <field name="property_product_pricelist" strin="Tarifa"/>
                 </xpath>
             </field>
         </record>
