@@ -7,9 +7,9 @@
 #        Se agrega campo de nombre fantasia a contactos
 #        """,
     'author': "Eladio Garcia",
-    'website': "http://eladiogarcia.com",
+    'website': "http://www.ti-eg.com",
     'license': 'LGPL-3',
-    'category': "sin categoría",
+    'category': "extra",
     'version': '1.1',
     'depends': ['base','sale_management','purchase','stock','contacts','l10n_cl'],
     'data': [
