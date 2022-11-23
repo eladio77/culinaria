@@ -20,14 +20,12 @@
     <!-- primary|extension Inherited .:Tree:. view for "model" -->
     <record id="customculinaria_product_template_tree_inherited" model="ir.ui.view">
         <field name="name">customculinaria_product_template_tree_inherited</field>
-        <field name="model">model</field>
+        <field name="model">product.template</field>
         <!-- Please veryfiy, that the following inherited view really sticks to the naming convention. -->
         <field name="inherit_id" ref="product.product_template_tree_view" />
         <field name="type">tree</field>
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='name']" position="after">
-                
-            </xpath>
+            <field name="taxes_id" string='Imp. Cliente' />
         </field>
     </record>
     
