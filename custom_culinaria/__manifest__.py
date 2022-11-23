@@ -16,4 +16,6 @@
         'views/as_res_partner_view.xml',
         'views/as_product_view.xml',
     ],
+    'auto-install': 'False',
+    'installable': 'True',
 }
