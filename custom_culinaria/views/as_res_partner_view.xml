@@ -26,6 +26,7 @@
             <field name="arch" type="xml">
                 <field name="display_name" position="after">
                     <field name="c_nombre_fantasia" string="Nombre Fantasia"/>
+                    <field name="street" string='Dirección'/>
                 </field>
                 <xpath expr="//field[@name='city']" position="after">
                     <xpath expr="//field[@name='user_id']" position="move"/>
@@ -36,5 +37,6 @@
                 </field> -->
             </field>
         </record>
+        
 </odoo>
 
