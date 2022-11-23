@@ -24,6 +24,9 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_tree"/>
             <field name="arch" type="xml">
+                <field name="name" position='before'>
+                    <field name="vat" string='Rut' />
+                </field>
                 <field name="display_name" position="after">
                     <field name="c_nombre_fantasia" string="Nombre Fantasia"/>
                     <field name="street" string='Dirección'/>
