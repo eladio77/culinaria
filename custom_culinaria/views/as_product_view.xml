@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!--
+
+    Customizacion de vista lista de producto
+    
+
+    Inherited Views
+
+    - - - - - - - - - model
+    - Model·········: product.template
+    - Base Module···: custom_culinaria
+    - Mode··········: primary|extension
+    - View priority·: 16
+    - - - - - - - - - model
+
+    -->
+
+    <!-- primary|extension Inherited .:Tree:. view for "model" -->
+    <record id="customculinaria_product_template_tree_inherited" model="ir.ui.view">
+        <field name="name">customculinaria_product_template_tree_inherited</field>
+        <field name="model">model</field>
+        <!-- Please veryfiy, that the following inherited view really sticks to the naming convention. -->
+        <field name="inherit_id" ref="product.product_template_tree_view" />
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                
+            </xpath>
+        </field>
+    </record>
+    
+
+</odoo>
+
