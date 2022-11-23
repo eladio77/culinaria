@@ -7,7 +7,7 @@
         <field name="inherit_id" ref="product.product_template_tree_view" />
         <field name="arch" type="xml">
             <field name="categ_id" position="after">
-                <field name="taxes_id" string='Imp. Cliente' />
+                <field name="taxes_id.name" string='Imp. Cliente' />
             </field>
 
             <field name="responsible_id" position="attributes">
