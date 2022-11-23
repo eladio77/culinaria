@@ -26,7 +26,11 @@
         <field name="type">tree</field>
         <field name="arch" type="xml">
             <field name="taxes_id" string='Imp. Cliente' />
+            <field name="responsible_id" position="attributes">
+                <attribute name="invisible">True</attribute>
+            </field>
         </field>
+
     </record>
     
 
