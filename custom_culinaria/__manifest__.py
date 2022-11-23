@@ -14,5 +14,6 @@
     'depends': ['base','sale_management','purchase','stock'],
     'data': [
         'views/as_res_partner_view.xml',
+        'views/as_product_view.xml',
     ],
 }
