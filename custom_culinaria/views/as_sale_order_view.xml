@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    
+    <record id="saleorder_tree_inherit_culinaria" model="ir.ui.view">
+        <field name="name">saleorder_tree_inherit_culinaria</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree_with_onboarding"/>
+        <field name="arch" type="xml">
+            <field name="partner_id" position='after'>
+                <field name="rut" string='Rut'/>
+            </field>
+        </field>
+    </record>
+
+
+</odoo>
