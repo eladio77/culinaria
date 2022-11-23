@@ -23,11 +23,13 @@
         <field name="model">product.template</field>
         <!-- Please veryfiy, that the following inherited view really sticks to the naming convention. -->
         <field name="inherit_id" ref="product.product_template_tree_view" />
-        <field name="type">tree</field>
         <field name="arch" type="xml">
-            <field name="taxes_id" string='Imp. Cliente' />
+            <field name="categ_id" position="after">
+                <field name="taxes_id" string='Imp. Cliente' />
+            </field>
+            
             <field name="responsible_id" position="attributes">
-                <attribute name="invisible">True</attribute>
+                <attribute name="invisible">1</attribute>
             </field>
         </field>
 
