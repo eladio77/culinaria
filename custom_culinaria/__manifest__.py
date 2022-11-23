@@ -11,7 +11,7 @@
     'license': 'LGPL-3',
     'category': "sin categoría",
     'version': '1.1',
-    'depends': ['base'],
+    'depends': ['base','sale'],
     'data': [
         'views/as_res_partner_view.xml',
     ],
