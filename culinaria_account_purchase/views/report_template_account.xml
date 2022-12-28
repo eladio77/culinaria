@@ -30,7 +30,7 @@
                 <br/>
 
                 <strong>Dirección de entrega:</strong>
-                <span t-esc="o.partner_shipping.name or ''"/>
+                <span t-esc="o.partner_shipping_id.name or ''"/>
                 <br/>
 
                 <strong>Guía de Despacho Número:</strong>
