@@ -21,5 +21,5 @@ class AccountMove(models.Model):
                     if record.l10n_latam_document_number:
                         vals['l10n_latam_document_number'] = record.l10n_latam_document_number
                     vals['direccion_entrega'] = record.partner_id.street
-        return super(AccountGroup, self).create(vals_list)
+        return super(AccountMove, self).create(vals_list)
     
