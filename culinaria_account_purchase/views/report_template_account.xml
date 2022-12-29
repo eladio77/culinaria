@@ -59,4 +59,12 @@
         </div>
         </xpath>
     </template>
+    
+    <template id="report_invoice_document_extension" inherit_id="account.report_invoice_document" primary="True">
+
+        <xpath expr="//table/tbody/t/tr/t/td[hasclass('text-right o_price_total')]" position="replace">
+            <span class="text-nowrap" t-field="line.price_subtotal"/>
+        </xpath>
+
+    </template>
 </odoo>
