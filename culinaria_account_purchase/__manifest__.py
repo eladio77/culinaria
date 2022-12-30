@@ -6,7 +6,7 @@
     "website": "http://www.eladiogarcia.com",
     "category": "extra",
     "depends": [
-        'base','contacts','l10n_cl'
+        'base','contacts','l10n_cl','l10n_cl_edi'
     ],
     'data': [
                 'views/report_template_account.xml',
